@@ -9,3 +9,9 @@ Utililzação de API do GLPK (GNU Linear Programming Kit), por um programa em No
 GLPK
 * Função objetivo e restrições no arquivo exemplo knapsack.mod
 * Modelo de dados recebidos em knapsack.dat
+
+execução exemplo 
+$glpsol --model knapsack.mod --data knapsack.dat -o result.txt
+
+Using GLPK to solve Knapsack and related problems
+https://www.ssushant.in/2016/04/28/using-glpk-to-solve-knapsack-and-related-problems/
