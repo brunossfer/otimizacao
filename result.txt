@@ -1,0 +1,71 @@
+Problem:    knapsack
+Rows:       2
+Columns:    22 (22 integer, 22 binary)
+Non-zeros:  44
+Status:     INTEGER OPTIMAL
+Objective:  knap_lucro = 975 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 knap_custoTempo
+                                 443                         450 
+     2 knap_lucro                975                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 adicionado[a]
+                    *              1             0             1 
+     2 adicionado[b]
+                    *              1             0             1 
+     3 adicionado[c]
+                    *              1             0             1 
+     4 adicionado[d]
+                    *              1             0             1 
+     5 adicionado[e]
+                    *              1             0             1 
+     6 adicionado[g]
+                    *              0             0             1 
+     7 adicionado[h]
+                    *              1             0             1 
+     8 adicionado[i]
+                    *              0             0             1 
+     9 adicionado[j]
+                    *              1             0             1 
+    10 adicionado[k]
+                    *              1             0             1 
+    11 adicionado[l]
+                    *              0             0             1 
+    12 adicionado[m]
+                    *              0             0             1 
+    13 adicionado[n]
+                    *              1             0             1 
+    14 adicionado[o]
+                    *              0             0             1 
+    15 adicionado[p]
+                    *              0             0             1 
+    16 adicionado[q]
+                    *              1             0             1 
+    17 adicionado[r]
+                    *              1             0             1 
+    18 adicionado[s]
+                    *              1             0             1 
+    19 adicionado[t]
+                    *              1             0             1 
+    20 adicionado[u]
+                    *              0             0             1 
+    21 adicionado[v]
+                    *              1             0             1 
+    22 adicionado[w]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

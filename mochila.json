@@ -1,0 +1,63 @@
+let exemplo = {
+  "name": "magica
+  "objective": {"direction": 2,"name": "otimochila"vars": [
+      {"name" "a","lucro": 150},
+      {"name" "b","lucro": 35},	  
+	    {"name" "c","lucro": 200},
+      {"name" "d","lucro": 60},
+      {"name" "e","lucro": 60},
+      {"name" "g","lucro": 45},	
+      {"name" "h","lucro": 60},
+      {"name" "i","lucro": 40},	  
+	    {"name" "j","lucro": 30},
+      {"name" "k","lucro": 70},
+      {"name" "l","lucro": 10},
+      {"name" "m","lucro": 30},	  
+      {"name" "n","lucro": 15},
+      {"name" "o","lucro": 10},	  
+	    {"name" "p","lucro": 40},
+      {"name" "q","lucro": 70},
+      {"name" "r","lucro": 75},
+      {"name" "s","lucro": 80},	  
+      {"name" "t","lucro": 20},
+      {"name" "u","lucro": 12},
+      {"name" "v","lucro": 50},
+      {"name" "w","lucro": 10},	  
+    ]
+  },
+  "subjectTo": [
+    {
+      "name": "size",
+      "vars": [
+	    {"name" "a","custo": 9},
+      {"name" "b","custo": 13},	  
+	    {"name" "c","custo": 153},
+      {"name" "d","custo": 50},
+      {"name" "e","custo": 15},
+      {"name" "g","custo": 68},	
+      {"name" "h","custo": 27},
+      {"name" "i","custo": 39},	  
+	    {"name" "j","custo": 23},
+      {"name" "k","custo": 11},
+      {"name" "l","custo": 52},
+      {"name" "m","custo": 32},	  
+      {"name" "n","custo": 24},
+      {"name" "o","custo": 48},	  
+	    {"name" "p","custo": 73},
+      {"name" "q","custo": 42},
+      {"name" "r","custo": 43},
+      {"name" "s","custo": 23},	  
+      {"name" "t","custo": 7},
+      {"name" "u","custo": 18},
+      {"name" "v","custo": 4},
+      {"name" "w","custo": 30},
+      ],
+      "bnds": {
+        "type": 3,
+        "ub": 450,
+        "lb": 0
+      }
+    },
+  ],
+  "binaries": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w"]
+}
